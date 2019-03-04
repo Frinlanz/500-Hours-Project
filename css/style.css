@@ -119,3 +119,231 @@ p.featurepara {
   color: #6c7279;
   margin-bottom: 20px;
 }
+
+/* Works Page */
+#works {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  height: 743px;
+}
+
+
+h3.pname{
+  position: absolute;
+  top: 43%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 14px;
+  font-weight: 700;
+  color: white;
+  visibility: hidden;
+}
+
+p.pweb {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 12px;
+  font-weight: 400;
+  color: white;
+  visibility: hidden;
+}
+
+.work {
+  position: relative;
+  overflow: hidden;
+  border-right: 1px solid white;
+  border-bottom: 1px solid white;
+}
+
+a.project {
+  height: 100%;
+  display: block;
+}
+
+
+
+.block1 {
+  width: 100%;
+  height: 400px;
+  background: url(../img/works/work-1.jpg)no-repeat;
+  background-size: cover;
+  transition: all .3s ease;
+  position: relative;
+  }
+
+  .block1:hover {
+    transform: scale(1.2);
+    background-size: cover;
+    background-color: rgba(232, 69, 69, 0.9);
+    background-blend-mode: multiply;
+    transition: all .3s ease;
+    position: relative;
+  }
+  
+  .block1:hover h3.pname,
+  .block1:hover p.pweb {
+    visibility: visible;
+  }
+
+.block2 {
+  background: url(../img//works/work-2.jpg)no-repeat ;
+  background-size: cover;
+  width: 100%;
+  height: 400px;
+  transition: all .3s ease;
+  position: relative;
+}
+
+.block2:hover {
+  transform: scale(1.2);
+  background-size: cover;
+  background-color: rgba(232, 69, 69, 0.9);
+  background-blend-mode: multiply;
+  transition: all .3s ease;
+  position: relative;
+}
+
+.block2:hover h3.pname,
+.block2:hover p.pweb {
+    visibility: visible;
+  }
+
+.block3 {
+  background: url(../img/works/work-3.jpg)no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 400px;
+  transition: all .3s ease;
+  position: relative;
+}
+
+.block3:hover {
+  transform: scale(1.2);
+  background-size: cover;
+  background-color: rgba(232, 69, 69, 0.9);
+  background-blend-mode: multiply;
+  transition: all .3s ease;
+  position: relative;
+}
+
+.block3:hover h3.pname,
+.block3:hover p.pweb {
+    visibility: visible;
+  }
+
+.block4 {
+  background: url(../img/works/work-4.jpg)no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 400px;
+  transition: all .3s ease;
+  position: relative;
+}
+
+.block4:hover {
+  transform: scale(1.2);
+  background-size: cover;
+  background-color: rgba(232, 69, 69, 0.9);
+  background-blend-mode: multiply;
+  transition: all .3s ease;
+  position: relative;
+}
+
+.block4:hover h3.pname,
+.block4:hover p.pweb {
+    visibility: visible;
+  }
+
+.block5 {
+  background: url(../img/works/work-5.jpg)no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 400px;
+  transition: all .3s ease;
+  position: relative;
+}
+
+.block5:hover {
+  transform: scale(1.2);
+  background-size: cover;
+  background-color: rgba(232, 69, 69, 0.9);
+  background-blend-mode: multiply;
+  transition: all .3s ease;
+  position: relative;
+}
+
+.block5:hover h3.pname,
+.block5:hover p.pweb {
+    visibility: visible;
+  }
+
+.block6 {
+  background: url(../img/works/work-6.jpg)no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 400px;
+  transition: all .3s ease;
+  position: relative;
+}
+
+.block6:hover {
+  transform: scale(1.2);
+  background-size: cover;
+  background-color: rgba(232, 69, 69, 0.9);
+  background-blend-mode: multiply;
+  transition: all .3s ease;
+  position: relative;
+}
+
+.block6:hover h3.pname,
+.block6:hover p.pweb {
+    visibility: visible;
+  }
+
+.block7 {
+  background: url(../img/works/work-7.jpg)no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 400px;
+  transition: all .3s ease;
+  position: relative;
+}
+
+.block7:hover {
+  transform: scale(1.2);
+  background-size: cover;
+  background-color: rgba(232, 69, 69, 0.9);
+  background-blend-mode: multiply;
+  transition: all .3s ease;
+  position: relative;
+}
+
+.block7:hover h3.pname,
+.block7:hover p.pweb {
+    visibility: visible;
+  }
+
+.block8 {
+  background: url(../img/works/work-8.jpg)no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 400px;
+  transition: all .3s ease;
+  position: relative;
+}
+
+.block8:hover {
+  transform: scale(1.2);
+  background-size: cover;
+  background-color: rgba(232, 69, 69, 0.9);
+  background-blend-mode: multiply;
+  transition: all .3s ease;
+  position: relative;
+}
+
+.block8:hover h3.pname,
+.block8:hover p.pweb {
+    visibility: visible;
+  }
