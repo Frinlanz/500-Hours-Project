@@ -396,7 +396,6 @@ img.net:hover {
 /* Testimonial Page */
 #testimonials {
   height: 380px;
-  /* position: relative; */
 }
 
 #testimonials .block {
@@ -417,7 +416,7 @@ img.net:hover {
 }
 
 .block-desc {
-  background-color: #4e2959;
+  background-color: #482f50;
   text-align: left;
 }
 
@@ -436,4 +435,41 @@ p.designer {
   margin-top: 30px;
   color: white;
   margin: 10px 100px;
+}
+
+/* #Download */
+#download {
+  height: 250px;
+}
+
+#download .container {
+  text-align: center;
+}
+
+h3.download {
+  font-size: 28px;
+  color: #2d3033;
+  font-weight: 400;
+  margin-top: 100px;
+  margin-bottom: 0;
+}
+
+p.down {
+  color: black;
+  font-weight: 700;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+a.downloads {
+  border:2px solid #e84545;
+  background-color: #e84545;
+  text-decoration: none;
+  border-radius: 3px;
+  padding: 15px 30px;
+  font-size: 14px;
+  font-weight: 600;
+  display: inline-block;
+  margin-top: 30px;
+  color: white;
 }
