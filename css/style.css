@@ -347,3 +347,48 @@ a.project {
 .block8:hover p.pweb {
     visibility: visible;
   }
+
+/* Team Page */
+#team {
+  height: 700px;
+}
+
+#team .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+  margin-top: 100px;
+}
+
+h3.name {
+  font-size: 22px;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+h3.role {
+  color: #e84545;
+  font-size: 13px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  margin-top: 15px;
+}
+
+p.des {
+  font-size: 14px;
+  line-height: 22.4px;
+  color: #6c7279
+}
+
+img.net {
+  border: 1px solid #cdd0d4;
+  margin-right: 5px;
+}
+
+a.network {
+  text-decoration: none;
+}
+
+img.net:hover {
+  background-color: #e84545;
+}
