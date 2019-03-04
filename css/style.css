@@ -392,3 +392,48 @@ a.network {
 img.net:hover {
   background-color: #e84545;
 }
+
+/* Testimonial Page */
+#testimonials {
+  height: 380px;
+  /* position: relative; */
+}
+
+#testimonials .block {
+  display: grid !important;
+  grid-template-columns: 50% 50%;
+  height: 380px;
+}
+
+.block-bg1 {
+  background: url(../img/testimonial/testimonial-1.jpg)no-repeat;
+  background-size: cover;
+
+}
+
+.block-bg2 {
+  background: url(../img/testimonial/testimonial-2.jpg)no-repeat;
+  background-size: cover;
+}
+
+.block-desc {
+  background-color: #4e2959;
+  text-align: left;
+}
+
+p.text {
+  font-family: 'Cardo', serif;
+  font-weight: 400;
+  font-size: 36px;
+  color: white;
+  margin: 50px 100px;
+}
+
+p.designer {
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  margin-top: 30px;
+  color: white;
+  margin: 10px 100px;
+}
