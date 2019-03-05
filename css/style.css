@@ -532,3 +532,7 @@ a.dev {
   color: white;
   display: inline;
 }
+
+img.heart {
+  vertical-align: middle;
+}
