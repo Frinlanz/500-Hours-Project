@@ -6,4 +6,10 @@ $('#testimonials').slick({
   autoplaySpeed: 2000,
   arrows: false,
 });
+
+$(document).ready(function() {
+  $('.burger').click(function() {
+    $('.burger').toggleClass('active');
+  });
+});
 				
