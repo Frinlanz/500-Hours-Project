@@ -473,3 +473,62 @@ a.downloads {
   margin-top: 30px;
   color: white;
 }
+
+/* Aboutus Page */
+#aboutus {
+  height: 230px;
+  background-color: #3a3e64;
+  padding-top: 50px;
+}
+
+#aboutus .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 30px;
+  text-align: center;
+}
+
+h3.footerheader {
+  color: white;
+  margin-bottom: 20px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+p.footerpara {
+  font-size: 14px;
+  line-height: 22.4px;
+  color: #6c7279;  
+}
+
+img.shares {
+  border: 2px solid white;
+  margin-right: 10px;
+  border-radius: 2px;
+}
+
+img.shares:hover {
+  background-color: #e84545;
+  border: 2px solid #e84545;
+}
+
+/* Footer Bottom Section */
+#footerbottom {
+  text-align: center;
+  background-color: #313454;
+  padding: 20px 0;
+  height: 75px;
+} 
+
+p.copyright {
+  font-size: 14px;
+  line-height: 22.4px;
+  color: #6c7279;  
+  display: inline;
+}
+
+a.dev {
+  text-decoration: none;
+  color: white;
+  display: inline;
+}
