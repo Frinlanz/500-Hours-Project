@@ -12,4 +12,14 @@ $(document).ready(function() {
     $('.burger').toggleClass('active');
   });
 });
-				
+
+$(document).ready(function(){
+  $(".burger").click(function(){
+    $(".mobilenav").toggle();
+  });
+});
+
+$('.listmobile').click(function(){
+  $('.mobilenav').css('display','none');
+});
+
