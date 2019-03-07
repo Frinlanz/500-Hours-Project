@@ -23,7 +23,7 @@ body {
   right: 0;
 }
 
-.mobilenav {
+#mob {
   display: none;
 }
 
@@ -111,6 +111,7 @@ a.findout {
   text-align: center;
   grid-gap: 20px;
   padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 h3.featureheader {
@@ -359,6 +360,7 @@ a.project {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 10px;
   margin-top: 100px;
+  padding-bottom: 100px;
 }
 
 h3.name {
@@ -670,6 +672,10 @@ img.heart {
     
   } 
 
+  img.person {
+    width: 100%;
+  }
+
   /* Testimonial Page */
   #testimonials {
     height: 90vh;
@@ -707,4 +713,92 @@ img.heart {
     grid-template-columns: 100%;
   }
 
+}
+
+/* Media Max-Widht  414 */
+@media screen and (max-width: 415px) {
+  .container {
+    width: 400px; 
+  }
+
+  /* Header Section */
+  .listmobile {
+    display: block;
+    padding-top: 20px;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+  }
+
+  /* Main Page */
+  h1.head {
+    font-size: 32px;
+    line-height: normal;
+    padding-top: 200px;
+  }
+
+  /* Features Section */
+  #features .container {
+    display: grid;
+    grid-template-columns: 100%;
+  }
+
+  /* Works Page */
+  #works {
+    display: grid;
+    grid-template-columns: 100%;
+  }
+
+  /* Team Page */
+  #team .container {
+    display: grid;
+    grid-template-columns: 100%;
+    text-align: center;
+  }
+
+  img.person {
+    width: 70%;
+  }
+
+  /* Testimonial Page */
+  #testimonials {
+    height: 70vh;
+  }
+
+  p.text {
+    font-size: 22px;
+    margin: 20px;
+  }
+
+  p.designer {
+    font-size: 12px;
+    margin: 20px;;
+  }
+
+  #testimonials .block {
+    display: grid;
+    grid-template-columns: auto;
+    height: 70vh;
+    text-align: left;
+  }
+
+  .block-bg1,
+  .block-bg2 {
+    height: 35vh;
+  }
+
+  .block-desc {
+    height: 35vh;
+  }
+
+  /* About Us Page */
+  .footerpara {
+    margin-bottom: 40px;
+  }
+
+  /* Footer Section */
+  #footerbottom {
+    padding: 20px 0 0;
+    height: 60px;
+  }
 }
