@@ -7,7 +7,7 @@ body {
 }
 
 .container {
-  width: 1170px;;
+  width: 1170px;
   position: relative;
   margin: 0 auto;
 }
@@ -68,6 +68,7 @@ a.menu:hover {
   background: url(../img/main/banner.jpg)center;
   background-size: cover;
   height: 690px;
+  width: 100%;
 }
 
 #mainpage .container {
@@ -75,13 +76,14 @@ a.menu:hover {
 }
 
 h1.head {
-  padding-top: 200px;
+
   color: #fff;
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
   font-size: 65px;
   line-height: 70px;
   margin-bottom: 0;
+  padding: 200px 50px 0 50px;
 }
 
 p.headpara {
@@ -134,18 +136,19 @@ p.featurepara {
 }
 
 
-h3.pname{
+span.pname{
   position: absolute;
   top: 43%;
   left: 50%;
   transform: translate(-50%, -50%);
+  text-decoration: none;
   font-size: 14px;
   font-weight: 700;
   color: white;
-  visibility: hidden;
+  visibility: hidden; 
 }
 
-p.pweb {
+span.pweb {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -169,7 +172,6 @@ a.project {
 }
 
 
-
 .block1 {
   width: 100%;
   height: 400px;
@@ -188,8 +190,8 @@ a.project {
     position: relative;
   }
   
-  .block1:hover h3.pname,
-  .block1:hover p.pweb {
+  .block1:hover span.pname,
+  .block1:hover span.pweb {
     visibility: visible;
   }
 
@@ -202,17 +204,17 @@ a.project {
   position: relative;
 }
 
-.block2:hover {
-  transform: scale(1.2);
-  background-size: cover;
-  background-color: rgba(232, 69, 69, 0.9);
-  background-blend-mode: multiply;
-  transition: all .3s ease;
-  position: relative;
-}
+  .block2:hover {
+    transform: scale(1.2);
+    background-size: cover;
+    background-color: rgba(232, 69, 69, 0.9);
+    background-blend-mode: multiply;
+    transition: all .3s ease;
+    position: relative;
+  }
 
-.block2:hover h3.pname,
-.block2:hover p.pweb {
+  .block2:hover span.pname,
+  .block2:hover span.pweb {
     visibility: visible;
   }
 
@@ -225,17 +227,17 @@ a.project {
   position: relative;
 }
 
-.block3:hover {
-  transform: scale(1.2);
-  background-size: cover;
-  background-color: rgba(232, 69, 69, 0.9);
-  background-blend-mode: multiply;
-  transition: all .3s ease;
-  position: relative;
-}
+  .block3:hover {
+    transform: scale(1.2);
+    background-size: cover;
+    background-color: rgba(232, 69, 69, 0.9);
+    background-blend-mode: multiply;
+    transition: all .3s ease;
+    position: relative;
+  }
 
-.block3:hover h3.pname,
-.block3:hover p.pweb {
+  .block3:hover span.pname,
+  .block3:hover span.pweb {
     visibility: visible;
   }
 
@@ -248,17 +250,17 @@ a.project {
   position: relative;
 }
 
-.block4:hover {
-  transform: scale(1.2);
-  background-size: cover;
-  background-color: rgba(232, 69, 69, 0.9);
-  background-blend-mode: multiply;
-  transition: all .3s ease;
-  position: relative;
-}
+  .block4:hover {
+    transform: scale(1.2);
+    background-size: cover;
+    background-color: rgba(232, 69, 69, 0.9);
+    background-blend-mode: multiply;
+    transition: all .3s ease;
+    position: relative;
+  }
 
-.block4:hover h3.pname,
-.block4:hover p.pweb {
+  .block4:hover span.pname,
+  .block4:hover span.pweb {
     visibility: visible;
   }
 
@@ -271,17 +273,17 @@ a.project {
   position: relative;
 }
 
-.block5:hover {
-  transform: scale(1.2);
-  background-size: cover;
-  background-color: rgba(232, 69, 69, 0.9);
-  background-blend-mode: multiply;
-  transition: all .3s ease;
-  position: relative;
-}
+  .block5:hover {
+    transform: scale(1.2);
+    background-size: cover;
+    background-color: rgba(232, 69, 69, 0.9);
+    background-blend-mode: multiply;
+    transition: all .3s ease;
+    position: relative;
+  }
 
-.block5:hover h3.pname,
-.block5:hover p.pweb {
+  .block5:hover span.pname,
+  .block5:hover span.pweb {
     visibility: visible;
   }
 
@@ -294,17 +296,17 @@ a.project {
   position: relative;
 }
 
-.block6:hover {
-  transform: scale(1.2);
-  background-size: cover;
-  background-color: rgba(232, 69, 69, 0.9);
-  background-blend-mode: multiply;
-  transition: all .3s ease;
-  position: relative;
-}
+  .block6:hover {
+    transform: scale(1.2);
+    background-size: cover;
+    background-color: rgba(232, 69, 69, 0.9);
+    background-blend-mode: multiply;
+    transition: all .3s ease;
+    position: relative;
+  }
 
-.block6:hover h3.pname,
-.block6:hover p.pweb {
+  .block6:hover span.pname,
+  .block6:hover span.pweb {
     visibility: visible;
   }
 
@@ -317,17 +319,17 @@ a.project {
   position: relative;
 }
 
-.block7:hover {
-  transform: scale(1.2);
-  background-size: cover;
-  background-color: rgba(232, 69, 69, 0.9);
-  background-blend-mode: multiply;
-  transition: all .3s ease;
-  position: relative;
-}
+  .block7:hover {
+    transform: scale(1.2);
+    background-size: cover;
+    background-color: rgba(232, 69, 69, 0.9);
+    background-blend-mode: multiply;
+    transition: all .3s ease;
+    position: relative;
+  }
 
-.block7:hover h3.pname,
-.block7:hover p.pweb {
+  .block7:hover span.pname,
+  .block7:hover span.pweb {
     visibility: visible;
   }
 
@@ -340,27 +342,28 @@ a.project {
   position: relative;
 }
 
-.block8:hover {
-  transform: scale(1.2);
-  background-size: cover;
-  background-color: rgba(232, 69, 69, 0.9);
-  background-blend-mode: multiply;
-  transition: all .3s ease;
-  position: relative;
-}
+  .block8:hover {
+    transform: scale(1.2);
+    background-size: cover;
+    background-color: rgba(232, 69, 69, 0.9);
+    background-blend-mode: multiply;
+    transition: all .3s ease;
+    position: relative;
+  }
 
-.block8:hover h3.pname,
-.block8:hover p.pweb {
+  .block8:hover span.pname,
+  .block8:hover span.pweb {
     visibility: visible;
   }
 
 /* Team Page */
+#team{
+  padding-top: 100px;
+}
 #team .container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 10px;
-  margin-top: 100px;
-  padding-bottom: 100px;
 }
 
 h3.name {
@@ -369,7 +372,7 @@ h3.name {
   margin-bottom: 0;
 }
 
-h3.role {
+h4.role {
   color: #e84545;
   font-size: 13px;
   font-weight: 400;
@@ -383,22 +386,31 @@ p.des {
   color: #6c7279
 }
 
-img.net {
+a.network i {
+  font-size: 18px;
   border: 1px solid #cdd0d4;
-  margin-right: 5px;
+  margin-right: 2px;
+  color: grey;
+  /* padding: 10px 10px 10px 10px; */
+  width: 40px;
+  text-align: center;
+  padding: 8px 0 8px 0;
+  
 }
 
-a.network {
+a.network{
   text-decoration: none;
 }
 
-img.net:hover {
-  background-color: #e84545;
+a.network i:hover {
+  background: #e84545;
+  color: white;
 }
 
 /* Testimonial Page */
 #testimonials {
-  height: 380px;
+  height: 480px;
+  padding-top: 100px;
 }
 
 #testimonials .block {
@@ -443,9 +455,6 @@ p.designer {
 /* #Download */
 #download {
   height: 250px;
-}
-
-#download .container {
   text-align: center;
 }
 
@@ -504,16 +513,20 @@ p.footerpara {
   color: #6c7279;  
 }
 
-img.shares {
+a.share i {
+  width: 40px;
+  font-size: 18px;
+  color: white;
   border: 2px solid white;
-  margin-right: 10px;
+  margin-right: 5px;
   border-radius: 2px;
+  padding: 10px 0 10px 0;
 }
 
-img.shares:hover {
-  background-color: #e84545;
-  border: 2px solid #e84545;
-}
+  a.share i:hover {
+    background-color: #e84545;
+    border: 2px solid #e84545;
+  }
 
 /* Footer Bottom Section */
 #footerbottom {
@@ -763,6 +776,7 @@ img.heart {
   /* Testimonial Page */
   #testimonials {
     height: 70vh;
+    padding-top: 50px;
   }
 
   p.text {
@@ -791,6 +805,12 @@ img.heart {
     height: 35vh;
   }
 
+  /* Download page */
+  #download {
+    padding-top: 100px;
+    height: 350px;
+  }
+
   /* About Us Page */
   .footerpara {
     margin-bottom: 40px;
@@ -799,6 +819,6 @@ img.heart {
   /* Footer Section */
   #footerbottom {
     padding: 20px 0 0;
-    height: 60px;
+    height: 60px  ;
   }
 }
