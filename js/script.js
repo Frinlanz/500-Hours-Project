@@ -1,4 +1,3 @@
-
 $(document).ready(function() {
   //Hamburger
   $('.burger').click(function() {
@@ -23,7 +22,4 @@ $(document).ready(function() {
   $('.listmobile').click(function(){
     $('.mobilenav').css('display','none');
   });
-  
 });
-
-
