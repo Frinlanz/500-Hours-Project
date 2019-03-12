@@ -95,7 +95,6 @@ p.headpara {
 }
 
 a.findout {
-  border:2px solid #e84545;
   background-color: #e84545;
   text-decoration: none;
   border-radius: 3px;
@@ -474,7 +473,6 @@ p.down {
 }
 
 a.downloads {
-  border:2px solid #e84545;
   background-color: #e84545;
   text-decoration: none;
   border-radius: 3px;
@@ -525,7 +523,6 @@ a.share i {
 
   a.share i:hover {
     background-color: #e84545;
-    border: 2px solid #e84545;
   }
 
 /* Footer Bottom Section */
@@ -682,11 +679,11 @@ img.heart {
   #team .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    
+    text-align: center;
   } 
 
   img.person {
-    width: 100%;
+    width: 80%;
   }
 
   /* Testimonial Page */
@@ -716,7 +713,15 @@ img.heart {
   .block-desc {
     height: 35vh;
   }
+  /* Download Section */
+  #download {
+    height: 400px;
+  }
 
+  #download .container {
+    padding-top: 50px;
+  }
+  
   /* Aboutus Page */
   #aboutus {
     height: auto;

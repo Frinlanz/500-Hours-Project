@@ -1,25 +1,29 @@
 
-$('#testimonials').slick({
-  slidesToShow: 1,
-  slidesToScroll: 1,
-  autoplay: true,
-  autoplaySpeed: 2000,
-  arrows: false,
-});
-
 $(document).ready(function() {
+  //Hamburger
   $('.burger').click(function() {
     $('.burger').toggleClass('active');
   });
-});
 
-$(document).ready(function(){
+  //Slick Slider
+  $('#testimonials').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    arrows: false,
+  });
+
+  // Mobile Navigation
   $(".burger").click(function(){
     $(".mobilenav").toggle();
   });
+
+  // List Mobile 
+  $('.listmobile').click(function(){
+    $('.mobilenav').css('display','none');
+  });
+  
 });
 
-$('.listmobile').click(function(){
-  $('.mobilenav').css('display','none');
-});
 
